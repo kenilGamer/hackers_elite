@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: font1;
+  src: url('/public/fonts/Jersey25-Regular.ttf');
+}
+.page1-bg{
+  background: url("/img/UniversalUpscaler_36f66a09-0e91-4a4f-addd-64bb0dc9268d\ \(1\).jpg");
+  object-fit: cover;
+  background-size: 100% 100%;
+}
+.page2-bg{
+  background: url("/img/7972800.jpg");
+  object-fit: cover;
+  background-size: 100% 100%;
+}
+.font1{
+  font-family: font1;
+  /* @apply text-gray-900; */
+}

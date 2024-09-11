@@ -1,6 +1,9 @@
-import React from 'react'
-
+import { useGSAP } from '@gsap/react';
+import React from 'react';
+import gsap from 'gsap';
+import { IoMdSearch } from "react-icons/io";
 function Navbar() {
+  
   return (
     <div className='font1 w-full h-[70px] bg-green-200 flex items-center justify-between p-5 absolute top-0 left-0 z-10'>
         <div className='nav-l '>
@@ -15,7 +18,9 @@ function Navbar() {
                 </a>
             ))
             }
-            <input type="search" placeholder='search here' className='p-2 ' />
+           <div className='flex items-center justify-center relative'>
+           <IoMdSearch className='absolute left-4 text-2xl' /><input type="search" placeholder='search here' className='p-2 text-center' />
+           </div>
         </div>
        
     </div>

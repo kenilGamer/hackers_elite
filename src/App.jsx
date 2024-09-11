@@ -2,6 +2,9 @@ import React from 'react'
 import Home from './components/Home'
 import Page2 from './components/pages/Page2'
 import LocomotiveScroll from 'locomotive-scroll';
+import Page3 from './components/pages/Page3';
+import CanvasAnimation from './components/pages/Canvas';
+import Page4 from './components/pages/Page4';
 
 function App() {
   const locomotiveScroll = new LocomotiveScroll({
@@ -24,8 +27,11 @@ function App() {
   });
   return (
     <div className='w-full h-screen bg-green-500'>
+      <CanvasAnimation/>
       <Home/>
       <Page2/>
+      <Page3/>
+      <Page4/>
     </div>
   )
 }

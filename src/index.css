@@ -12,6 +12,7 @@
   background-size: 100% 100%;
 }
 .page2-bg{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: url("/img/7972800.jpg");
   object-fit: cover;
   background-size: 100% 100%;
@@ -19,4 +20,99 @@
 .font1{
   font-family: font1;
   /* @apply text-gray-900; */
+}
+/* From Uiverse.io by dzoshi */ 
+.card {
+  position: relative;
+  width: 200px;
+  height: 254px;
+  background: linear-gradient(-45deg, #77c60e 0%, #93e529 100%);
+  color: #81818144;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 14px;
+  gap: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.heading {
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 900;
+  margin-top: 7px;
+}
+
+.card p:not(.heading) {
+  font-size: 12px;
+  margin-top: 7px;
+}
+
+.card p:last-child {
+  color: #3b3b3b;
+  font-weight: 600;
+}
+
+
+
+
+.cards {
+  width: 250px;
+  height: 310px;
+  background: rgb(95, 200, 114);
+  border-radius: 15px;
+  box-shadow: 1px 5px 60px 0px #100a;
+}
+
+.cards .cards-border-top {
+  width: 60%;
+  height: 3%;
+  background: rgb(125, 255, 85);
+  margin: auto;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.cards span {
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  display: block;
+  padding-top: 10px;
+  font-size: 16px;
+}
+
+.cards .job {
+  font-weight: 400;
+  color: white;
+  display: block;
+  text-align: center;
+  padding-top: 3px;
+  font-size: 12px;
+}
+
+.cards .img {
+  width: 100px;
+  height:100px;
+  background: rgba(153, 252, 14, 0.682);
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.cards button {
+  padding: 8px 25px;
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+  border: none;
+  margin-top: 30px;
+  background: rgba(123, 235, 25, 0.688);
+  color: white;
+  font-weight: 600;
+}
+
+.cards button:hover {
+  background: rgba(181, 255, 43, 0.6);
 }
